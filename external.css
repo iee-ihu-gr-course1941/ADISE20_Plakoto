@@ -1,0 +1,41 @@
+html,body{
+    height:100%;
+    overflow-y:auto;
+}
+
+.flex-fill {
+    flex:1;
+}
+
+.logo{
+  background-image: url("tavli-plakoto.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 195px;
+  border-style: outset;
+  border-width: 2px;
+  margin: 0px;
+  
+
+}
+.main{
+  background-image: url("main_bg.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer{
+  color: white;
+  border-style: outset;
+  border-width: 2px;
+  position: fixed;
+  bottom: 0px;
+
+}
+
+.form{
+  color: black;
+}
