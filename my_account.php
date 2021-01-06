@@ -28,13 +28,6 @@
           </div>
       </div>
 
-      <div class="form-group row form">
-        <label for="cash" class="col-md-4 col-form-label text-md-right">Cash</label>
-        <div class="col-md-4">
-         <input type="text" id="cash" class="form-control" name="cash" placeholder="<?php echo $_SESSION['cash'] ?>" disabled>
-        </div>
-      </div>
-
       <div class="col-md-6 offset-md-4">
         <button type="submit" class="btn btn-secondary ">Update User Info</button>
         <a href="index.php?ctd=show_main" class="btn btn-link text-danger" target="_self">
