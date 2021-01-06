@@ -13,6 +13,7 @@
   <head>
     <title>Plakoto</title>
     <meta charset="utf-8">
+    <link rel="icon" href="./Images/tavli_board.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="external.css">
