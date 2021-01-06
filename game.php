@@ -270,10 +270,7 @@
 
 <br> <br>
 
-<div class="d-flex justify-content-center ">
 
-    <h3 id="acash">Available cash: <?php echo $row['cash'] ?>$</h3>
-</div>
 <div class="d-flex justify-content-center" id="status_div">
   <input class="col-sm-3" type="number" placeholder="Amount of money to bet" id="bet">
   <button onclick="gamestart()" type="button" class="btn btn-danger col-xs-4" id="bet_button">Bet</button>
