@@ -5,7 +5,7 @@
     $_SESSION['password'] = "";
   }
 
-  //require_once "dbconnect2.php";
+  require_once "dbconnect2.php";
 ?>
 
 <!DOCTYPE html>
@@ -64,10 +64,10 @@
                          </div>";
                  }
                  else{ //if it is not add the user in the database and procced to login
-                   $init_cash=500000;
-                   $sql = "INSERT INTO `users`( `uname`, `pwd`, `email`, `fname`, `lname`, `cash` ) VALUES (?,?,?,?,?,?)";
+                  
+                   $sql = "INSERT INTO `users`( `uname`, `pwd`, `email`, `fname`, `lname` ) VALUES (?,?,?,?,?)";
                      if( $stmt = $mysqli->prepare($sql) ) {
-                       $stmt->bind_param("sssssi", $_POST['username'], $_POST['password'], $_POST['email'], $_POST['fname'], $_POST['lname'], $init_cash);
+                       $stmt->bind_param("sssss", $_POST['username'], $_POST['password'], $_POST['email'], $_POST['fname'], $_POST['lname']);
                       $stmt->execute();
                    }
                    require "login.php";
@@ -99,7 +99,6 @@
              				$_SESSION['fname']=$row['fname'];
              				$_SESSION['lname']=$row['lname'];
              				$_SESSION['email']=$row['email'];
-             				$_SESSION['cash']=$row['cash'];
                    }
 
                   require "main_page.php";
@@ -182,7 +181,7 @@
        </div>
      </div>
      <footer class="container-fluid bg-dark footer">
-         <p>Adise 2020- Antoniou Spiros - Kiosses Vasileios</p>
+         <p>ADISE 2020- Antoniou Spiros - Kiosses Vasileios</p>
      </footer>
     </div>
 
