@@ -250,37 +250,11 @@
 
  ?>
 
-<!-- dealer cards -->
-<div class="d-flex justify-content-center ">
-  <h2>Dealer Cards</h2> <br>
+
+
+<div class="container-fluid board d-flex flex-column h-100 " >
+<div class="btn-group  btn-block col-md-4" >
 </div>
-<div class="d-flex justify-content-center" id="dealer_cards">
-
-</div>
-
-<br> <br> <br>
-
-<!-- user cards -->
-<div class="d-flex justify-content-center ">
-  <h2>My Cards</h2> <br>
-</div>
-<div class="d-flex justify-content-center" id="user_cards">
-
-</div>
-
-<br> <br>
-
-
-<div class="d-flex justify-content-center" id="status_div">
-  <input class="col-sm-3" type="number" placeholder="Amount of money to bet" id="bet">
-  <button onclick="gamestart()" type="button" class="btn btn-danger col-xs-4" id="bet_button">Bet</button>
-</div>
-<!-- draw and check buttons -->
-<div class="d-flex justify-content-center"  >
-  <div class="btn-group  btn-block col-md-4 ">
-    <button onclick="draw()" type="button" id="draw" class="btn btn-danger ">Draw</button>
-    <button onclick="ucheck()" type="button" id="check" class="btn btn-danger">Check</button>
-  </div>
 </div>
 
 <br> <br>
