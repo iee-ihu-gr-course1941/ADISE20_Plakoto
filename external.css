@@ -27,14 +27,6 @@ html,body{
   padding: 0px;
 }
 
-.board{
-  background-image: url("./Images/tavli_board.png");
-  background-size: contain;
-  background-repeat: repeat;
-  margin: 0px;
-  padding: 0px;
-}
-
 .footer{
   color: white;
   border-style: outset;
