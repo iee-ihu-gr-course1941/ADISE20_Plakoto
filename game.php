@@ -252,9 +252,10 @@
 
 
 
-<div class="container-fluid board d-flex flex-column h-100 " >
-<div class="btn-group  btn-block col-md-4" >
-</div>
+<div class="d-flex justify-content-center" >
+<img src="./Images/tavli_board.png" class="img-fluid" width="600"> 
+
+
 </div>
 
 <br> <br>
