@@ -1,6 +1,6 @@
 <?php
 $host='localhost';
-$db = 'Database/adise20_plakoto';
+$db = 'adise20_plakoto';
 require_once "db_upass.php";
 
 $user=$DB_USER;
