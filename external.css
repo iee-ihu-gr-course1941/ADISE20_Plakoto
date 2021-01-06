@@ -9,7 +9,7 @@ html,body{
 
 .logo{
   background-image: url("tavli-plakoto.png");
-  background-size: contain;
+  background-size:contain;
   background-repeat: no-repeat;
   background-position: center ;
   height: 195px;
